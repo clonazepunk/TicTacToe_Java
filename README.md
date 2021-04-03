@@ -1,8 +1,7 @@
 # TicTacToe_Java
 just another tic tac toe for java
-package repasoHastaSockets;
 
-import java.util.InputMismatchException;
+	import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class TaTeTi {
@@ -79,9 +78,9 @@ public class TaTeTi {
 
 	static void showRules() {
 		System.out.println(
-				"*************************************************INSTRUCCIONES*************************************************");
-		String instrucciones = "Select a player and wait for your turn. Tokens: PLAYER1's = 'X', PLAYER2's = 'O'. \nSelect one number from 1 to 9 to draw your token.";
-		System.out.println(instrucciones);
+				"******************************************************RULES******************************************************");
+		String rules = "Select a player and wait for your turn. Tokens: PLAYER1's = 'X', PLAYER2's = 'O'. \nSelect one number from 1 to 9 to draw your token.";
+		System.out.println(rules);
 		System.out.println("");
 		char a[][] = { { '1', '|', '2', '|', '3' }, { '-', '+', '-', '+', '-' }, { '4', '|', '5', '|', '6' },
 				{ '-', '+', '-', '+', '-' }, { '7', '|', '8', '|', '9' } };
@@ -347,3 +346,4 @@ public class TaTeTi {
 	}
 
 }
+
